@@ -38,8 +38,6 @@ int main()
         return 1;
     }
 
-    cudaMemcpy(host_A, device_A, host_N * sizeof(float), cudaMemcpyDeviceToHost);
-    cudaMemcpy(host_B, device_B, host_N * sizeof(float), cudaMemcpyDeviceToHost);
     cudaMemcpy(host_C, device_C, host_N * sizeof(float), cudaMemcpyDeviceToHost);
 
     cudaFree(device_N);
