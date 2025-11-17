@@ -45,7 +45,7 @@ __global__ void MatMul2D(float* A, float* B, float* C, int M, int N, int K)
 
 int main()
 {
-    int M = 2, K = 3, N = 1;
+    const int M = 2, K = 3, N = 1;
 
     float A[M * K] = {
         1, 2, 3,
