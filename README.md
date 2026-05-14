@@ -26,7 +26,7 @@ GPU-accelerated image processing using [stb_image](https://github.com/nothings/s
 
 Generates a 4096×4096 PNG of the Mandelbrot set using the escape-time algorithm with smooth coloring and an interpolated blue-to-gold palette.
 
-![Seahorse Valley](mandebrot-seahorse-valley.jpg)
+<img src="mandebrot-seahorse-valley.jpg" width="49%" alt="Seahorse Valley"/> <img src="mandebrot-escape-time.jpg" width="49%" alt="Escape Time"/>
 
 Several interesting regions are pre-defined in the source:
 
